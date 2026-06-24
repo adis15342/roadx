@@ -1,0 +1,13 @@
+/* Custom app-specific styles if needed. Let's keep it clean as we use compiled Tailwind CSS utility classes. */
+.animate-spin-slow {
+  animation: spin 15s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
