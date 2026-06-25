@@ -52,44 +52,44 @@ export const Home = () => {
           <ul className="flex gap-x-52 py-2 cursor-default whitespace-nowrap animate-slide text-white text-xl">
             {/* Set 1 */}
             <li className="flex items-center gap-x-2">
-              <img src="/images/Home/herorail/motorway.png" alt="Expressway" className="w-8 h-8 invert" />
+              <img src="/images/Home/herorail/motorway.webp" alt="Expressway" className="w-8 h-8 invert" />
               <span className="mt-2">Expressway</span>
             </li>
             <li className="flex items-center gap-x-2">
-              <img src="/images/Home/herorail/tunnel.png" alt="Tunnels" className="w-8 h-8 invert" />
+              <img src="/images/Home/herorail/tunnel.webp" alt="Tunnels" className="w-8 h-8 invert" />
               <span className="mt-2">Tunnels</span>
             </li>
             <li className="flex items-center gap-x-2">
-              <img src="/images/Home/herorail/buildings.png" alt="Urban Infrastructure" className="w-8 h-8 invert" />
+              <img src="/images/Home/herorail/buildings.webp" alt="Urban Infrastructure" className="w-8 h-8 invert" />
               <span className="mt-2">Urban Infrastructure</span>
             </li>
             <li className="flex items-center gap-x-2">
-              <img src="/images/Home/herorail/vincent-thomas-bridge.png" alt="Bridges" className="w-8 h-8 invert" />
+              <img src="/images/Home/herorail/vincent-thomas-bridge.webp" alt="Bridges" className="w-8 h-8 invert" />
               <span className="mt-2">Bridges</span>
             </li>
             {/* Set 2 (duplicate for seamless loop) */}
             <li className="flex items-center gap-x-2">
-              <img src="/images/Home/herorail/motorway.png" alt="Expressway" className="w-8 h-8 invert" />
+              <img src="/images/Home/herorail/motorway.webp" alt="Expressway" className="w-8 h-8 invert" />
               <span className="mt-2">Expressway</span>
             </li>
             <li className="flex items-center gap-x-2">
-              <img src="/images/Home/herorail/tunnel.png" alt="Tunnels" className="w-8 h-8 invert" />
+              <img src="/images/Home/herorail/tunnel.webp" alt="Tunnels" className="w-8 h-8 invert" />
               <span className="mt-2">Tunnels</span>
             </li>
             <li className="flex items-center gap-x-2">
-              <img src="/images/Home/herorail/buildings.png" alt="Urban Infrastructure" className="w-8 h-8 invert" />
+              <img src="/images/Home/herorail/buildings.webp" alt="Urban Infrastructure" className="w-8 h-8 invert" />
               <span className="mt-2">Urban Infrastructure</span>
             </li>
             <li className="flex items-center gap-x-2">
-              <img src="/images/Home/herorail/vincent-thomas-bridge.png" alt="Bridges" className="w-8 h-8 invert" />
+              <img src="/images/Home/herorail/vincent-thomas-bridge.webp" alt="Bridges" className="w-8 h-8 invert" />
               <span className="mt-2">Bridges</span>
             </li>
             <li className="flex items-center gap-x-2">
-              <img src="/images/Home/herorail/metro.png" alt="Metro" className="w-8 h-8 invert" />
+              <img src="/images/Home/herorail/metro.webp" alt="Metro" className="w-8 h-8 invert" />
               <span className="mt-2">Metro</span>
             </li>
             <li className="flex items-center gap-x-2">
-              <img src="/images/Home/herorail/waterfall_6735800.png" alt="Waterways" className="w-8 h-8 invert" />
+              <img src="/images/Home/herorail/waterfall_6735800.webp" alt="Waterways" className="w-8 h-8 invert" />
               <span className="mt-2">Waterways</span>
             </li>
           </ul>
