@@ -84,7 +84,7 @@ const Footer = () => {
             className="object-contain"
           />
           <a
-            href="https://maps.app.goo.gl/9rx2BmG2KnX8sf1t5"
+            href="https://maps.app.goo.gl/kD1X9CMPFRMdfi5S7"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm sm:text-base md:text-lg lg:text-lg font-bold text-gray-700 hover:text-primary cursor-pointer transition-colors duration-200 leading-relaxed break-words"
