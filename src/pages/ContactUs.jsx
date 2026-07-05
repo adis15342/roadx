@@ -1,4 +1,9 @@
 import { useState } from 'react';
+import emailjs from 'emailjs-com';
+
+const SERVICE_ID = 'service_n625se8';
+const TEMPLATE_ID = 'template_mslce4o';
+const PUBLIC_KEY = '9mTfYBa6mALM3EGRk';
 
 export const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -9,32 +14,40 @@ export const ContactUs = () => {
     message: ''
   });
   const [status, setStatus] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('Sending...');
+    setIsSubmitting(true);
 
     try {
-      const response = await fetch('/send_email.php', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: new URLSearchParams(formData).toString(),
-      });
+      const templateParams = {
+        from_name: formData.name,
+        from_email: formData.email,
+        phone: formData.phone,
+        subject: formData.subject,
+        message: formData.message,
+      };
 
-      if (response.ok) {
+      const response = await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY);
+
+      if (response.status === 200) {
         setStatus('Message sent successfully!');
         setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
       } else {
         setStatus('Failed to send message.');
       }
     } catch (error) {
+      console.error('EmailJS error:', error);
       setStatus('Error sending message.');
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -197,20 +210,21 @@ export const ContactUs = () => {
             <button
               type="submit"
               className="btn"
+              disabled={isSubmitting}
               style={{
                 display: 'block',
                 width: '100%',
-                backgroundColor: '#1f2f39',
+                backgroundColor: isSubmitting ? '#4b5563' : '#1f2f39',
                 color: '#fff',
                 padding: '0.75rem',
                 border: 'none',
                 borderRadius: '4px',
-                cursor: 'pointer',
+                cursor: isSubmitting ? 'not-allowed' : 'pointer',
                 fontSize: '1.1rem',
                 transition: 'background-color 0.3s ease, transform 0.2s ease'
               }}
             >
-              Send Message
+              {isSubmitting ? 'Sending...' : 'Send Message'}
             </button>
             {status && <p style={{ marginTop: '1rem', textAlign: 'center' }}>{status}</p>}
           </form>

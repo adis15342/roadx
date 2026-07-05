@@ -89,8 +89,8 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-sm sm:text-base md:text-lg lg:text-lg font-bold text-gray-700 hover:text-primary cursor-pointer transition-colors duration-200 leading-relaxed break-words"
           >
-            Building no - 882, Barwasni<br />
-            Sonipat, Haryana - 131001
+            NH-352A , Near Guru Sadan <br />
+            Barwasni , Sonipat, Haryana - 131001
           </a>
         </FooterColumn>
 
@@ -203,7 +203,7 @@ const Footer = () => {
           <span className="relative inline-block group font-medium cursor-pointer">
             Techno Items
 
-            <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 bg-gray-100 border border-gray-200 shadow-md rounded px-3 py-1 text-xs whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-50" style={{fontSize: 'small'}} >
+            <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 bg-gray-100 border border-gray-200 shadow-md rounded px-3 py-1 text-xs whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-50" style={{fontSize: 'small', transform: 'translateX(-39px)'}} >
               +91 78800 80817/94667 03459
             </span>
           </span>

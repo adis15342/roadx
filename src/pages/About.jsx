@@ -38,7 +38,6 @@ export const About = () => {
         </div>
       </div>
 
-      {/* Our Achievements (Commented out in blade template) */}
       {/* 
       <div className="max-lg:hidden">
         <div>
@@ -237,7 +236,7 @@ export const About = () => {
       </div>
 
       {/* Our Presence (Commented out in blade template) */}
-      {/* 
+{/*       
       <div className="max-w-[88vw] mx-auto mb-20">
         <div style={{ transform: 'translateY(-20px)' }}>
           <h1 className="unihead my-10 text-center text-2xl md:text-3xl lg:text-4xl">Our Presence</h1>

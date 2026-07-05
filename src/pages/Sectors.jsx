@@ -53,7 +53,7 @@ export const Sectors = () => {
       title: "Urban Infrastructure",
       images: [
         "/Yogesh/pexels-rahulp9800-30388880980.jpg",
-        "/Yogesh/image162a",
+        "/Yogesh/image162a.jpg",
         "/Yogesh/arq-2645763_128029a3.jpg"
       ],
       content: [
