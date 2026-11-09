@@ -25,7 +25,8 @@ export const Projects = () => {
 
   return (
     <div className="pt-20 pb-16 bg-[#f7f9fc]">
-      <section className="relative mx-auto mt-7 overflow-hidden rounded-[32px] shadow-2xl max-w-[88vw]">        <img
+      <section className="relative mx-auto mt-8 overflow-hidden rounded-[32px] shadow-2xl max-w-[88vw]">
+        <img
           src="/Yogesh/Expressway3.jpg"
           alt="Projects hero"
           className="absolute inset-0 h-full w-full object-cover"
@@ -112,9 +113,9 @@ export const Projects = () => {
           </div>
           <div className="rounded-[20px] bg-[#f7f9fc] p-6">
             <ul className="space-y-3 text-sm text-slate-700">
-              <li className="rounded-lg bg-white px-4 py-3 shadow-sm">Detailed project reports and feasibility studies</li>
-              <li className="rounded-lg bg-white px-4 py-3 shadow-sm">Specialized road, bridge, and geotechnical consultancy</li>
-              <li className="rounded-lg bg-white px-4 py-3 shadow-sm">Responsive support from planning through implementation</li>
+              <li className="rounded-lg bg-white mb-4 px-4 py-3 shadow-sm">Detailed project reports and feasibility studies</li>
+              <li className="rounded-lg bg-white mb-4 px-4 py-3 shadow-sm">Specialized road, bridge, and geotechnical consultancy</li>
+              <li className="rounded-lg bg-white mb-4 px-4 py-3 shadow-sm">Responsive support from planning through implementation</li>
             </ul>
           </div>
         </div>

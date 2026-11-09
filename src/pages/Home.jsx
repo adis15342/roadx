@@ -115,9 +115,9 @@ export const Home = () => {
               <h1 className="text-4xl font-bold font-montserrat mb-4 text-logored">About Us</h1>
               <h2 className="text-lg sm:text-xl text-justify my-5">
                 <span className="font-bold">
-                  <span className="text-primary">Roadx</span> Designers &amp; Consultants
+                  <span className="text-primary">RoadX</span> Infrastructure Solutions
                 </span>{' '}
-                Roadx Designers &amp; Consultants is a leading infrastructure design and consulting
+                RoadX Infrastructure Solutions is a leading infrastructure design and consulting
                 firm dedicated to delivering innovative, sustainable, and cost-effective solutions
                 in the field of transportation and civil engineering. With a strong foundation in
                 technical expertise and a commitment to excellence, we specialize in the planning,

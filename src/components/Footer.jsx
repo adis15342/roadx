@@ -76,21 +76,22 @@ const Footer = () => {
         {/* Col 1: Logo & Address */}
         <FooterColumn>
           <img
-            src="/Yogesh/Untitled designd538.png"
-            alt="Roadx Logo"
-            width={120}
+            src="/Yogesh/newlogo.png"
+            alt="RoadX Logo"
+            width={180}
             height={120}
             loading="lazy"
             className="object-contain"
+            
           />
           <a
             href="https://maps.app.goo.gl/kD1X9CMPFRMdfi5S7"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm sm:text-base md:text-lg lg:text-lg font-bold text-gray-700 hover:text-primary cursor-pointer transition-colors duration-200 leading-relaxed break-words"
-          >
-            NH-352A , Near Guru Sadan <br />
-            Barwasni , Sonipat, Haryana - 131001
+          > 
+            Flat No 1668/29 Kakroi Road <br />
+            Sonipat , Haryana-131001
           </a>
         </FooterColumn>
 
@@ -124,12 +125,13 @@ const Footer = () => {
 
                   <li className="text-gray-800 overflow-hidden group-hover:text-primary text-lg list-none">
                     <a
-                      href="https://mail.google.com/mail/?view=cm&fs=1&to=roadxdesignconsultancy@gmail.com"
+                      href="https://mail.google.com/mail/?view=cm&fs=1&to=Roadxinfrastructuresolutions@gmail.com"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="max-w-full break-all"
+                      style={{ fontSize: "smaller" }}
                     >
-                      roadxdesignconsultancy@gmail.com
+                      Roadxinfrastructuresolutions@gmail.com
                     </a>
                   </li>
                 </div>
@@ -145,8 +147,8 @@ const Footer = () => {
                   />
 
                   <li className="text-gray-800 group-hover:text-primary text-lg list-none">
-                    <a href="tel:+919050869258">
-                      +91 90508 69258
+                    <a href="tel:+917206305387">
+                      +91 7206305387,9050869258
                     </a>
                   </li>
                 </div>
@@ -204,7 +206,7 @@ const Footer = () => {
             Techno Items
 
             <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 bg-gray-100 border border-gray-200 shadow-md rounded px-3 py-1 text-xs whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-50" style={{fontSize: 'small', transform: 'translateX(-39px)'}} >
-              +91 78800 80817/94667 03459
+              +91 94667 03459
             </span>
           </span>
 
@@ -213,10 +215,10 @@ const Footer = () => {
 
       {/* Floating Buttons */}
       <div className="fixed z-50 right-4 sm:right-6 bottom-8 flex flex-col gap-y-3">
-        <a href="mailto:roadxdesignconsultancy@gmail.com" className="bg-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform" aria-label="Email">
+        <a href="mailto:Roadxinfrastructuresolutions@gmail.com" className="bg-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform" aria-label="Email">
           <img src="/Yogesh/mail.png" alt="Email" width={24} height={24} />
         </a>
-        <a href="https://wa.me/9812476369" target="_blank" rel="noreferrer" className="bg-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform" aria-label="WhatsApp">
+        <a href="https://wa.me/7206305387" target="_blank" rel="noreferrer" className="bg-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform" aria-label="WhatsApp">
           <img src="/Yogesh/whatsapp635c.png" alt="WhatsApp" width={24} height={24} />
         </a>
         <button

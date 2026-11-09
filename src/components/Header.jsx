@@ -21,9 +21,9 @@ const Header = () => {
               <img
                 alt="Image"
                 loading="lazy"
-                width="100"
+                width="150"
                 className=" py-[7px]"
-                src="/Yogesh/Untitled designd538.png"
+                src="/Yogesh/newlogo.png"
               />
             </Link>
           </div>
@@ -78,7 +78,7 @@ const Header = () => {
       {/* Floating Action / Contact Buttons */}
       <div className="fixed z-10 bottom-20 max-sm:right-2 right-6 transform -translate-y-1/2 flex flex-col gap-y-4">
         <div className="group relative flex items-center bg-white rounded-full hover:scale-110 transition-transform duration-300 hover:-translate-x-2">
-          <a href="mailto:roadxdesignconsultancy@gmail.com" className="flex items-center">
+          <a href="mailto:Roadxinfrastructuresolutions@gmail.com" className="flex items-center">
             <img
               alt="Email Us"
               loading="lazy"

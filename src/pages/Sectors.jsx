@@ -88,7 +88,7 @@ export const Sectors = () => {
         {
           heading: "Building Enduring Connections:",
           highlight: " Bridges ",
-          text: "At Roadx Designers & Consultants we understand the critical role that roads and bridges play in connecting communities, facilitating trade, and driving economic prosperity. Our team of skilled engineers and experienced project managers works collaboratively with clients to design, construct, and supervise the development of:"
+          text: "At RoadX Infrastructure Solutions we understand the critical role that roads and bridges play in connecting communities, facilitating trade, and driving economic prosperity. Our team of skilled engineers and experienced project managers works collaboratively with clients to design, construct, and supervise the development of:"
         },
         {
           heading: "Bridges",
@@ -108,11 +108,11 @@ export const Sectors = () => {
         {
           heading: "Highway",
           highlight: " Expressway ",
-          text: "Roadx Designers & Consultants is a leading firm specializing in innovative and sustainable expressway design solutions. With expertise in planning, geometric design, and traffic engineering, we deliver high-speed corridors built for safety and efficiency. From concept to execution, Roadx ensures precision, performance, and future-ready infrastructure."
+          text: "RoadX Infrastructure Solutions is a leading firm specializing in innovative and sustainable expressway design solutions. With expertise in planning, geometric design, and traffic engineering, we deliver high-speed corridors built for safety and efficiency. From concept to execution, Roadx ensures precision, performance, and future-ready infrastructure."
         },
         {
           heading: "Expressway",
-          text: "Roadx Designers & Consultants delivers end-to-end engineering solutions for highways, expressways, and rural road networks. Our expertise spans smart alignment design, safety audits, and sustainable infrastructure tailored to every terrain. With a commitment to quality and innovation, we connect regions with roads built for the future."
+          text: "RoadX Infrastructure Solutions delivers end-to-end engineering solutions for highways, expressways, and rural road networks. Our expertise spans smart alignment design, safety audits, and sustainable infrastructure tailored to every terrain. With a commitment to quality and innovation, we connect regions with roads built for the future."
         }
       ]
     },

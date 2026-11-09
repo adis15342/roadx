@@ -176,7 +176,7 @@ export const About = () => {
               className="text-base md:text-lg lg:text-xl mb-4 sm:mt-20 lg:mt-0 max-sm:mt-0 text-justify"
               style={{ transform: 'translateY(-20px)' }}
             >
-              <span className="text-primary">RoadX</span> Designers & Consultants is a forward-thinking engineering and design
+              <span className="text-primary">RoadX</span> Infrastructure Solutions is a forward-thinking engineering and design
               consultancy specializing in transportation infrastructure. With a team of
               experienced civil engineers, planners, and design experts, we deliver innovative,
               sustainable, and efficient solutions for roads, highways, and urban mobility
