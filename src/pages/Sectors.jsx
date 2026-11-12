@@ -35,16 +35,16 @@ export const Sectors = () => {
       content: [
         {
           heading: "Tunneling Expertise ",
-          highlight: " RoadX Design & Consultants Overview:",
-          text: "RoadX Design & Consultants specializes in the design, engineering, and project management of complex tunneling solutions within transportation infrastructure. Their tunneling expertise supports road and highway development in challenging terrains where surface roads are impractical."
+          highlight: " RoadX Infrastructure Solutions Overview:",
+          text: "RoadX Infrastructure Solutions specializes in the design, engineering, and project management of complex tunneling solutions within transportation infrastructure. Their tunneling expertise supports road and highway development in challenging terrains where surface roads are impractical."
         },
         {
           heading: "Safe & Efficient Tunneling",
-          text: "At RoadX Design & Consultants, safety and efficiency are the cornerstones of our tunneling solutions. From concept to completion, we apply cutting-edge technologies, rigorous engineering standards, and proven construction methodologies to ensure every tunnel project is delivered with maximum operational safety, minimal environmental disruption, and optimal cost-effectiveness."
+          text: "At RoadX Infrastructure Solutions, safety and efficiency are the cornerstones of our tunneling solutions. From concept to completion, we apply cutting-edge technologies, rigorous engineering standards, and proven construction methodologies to ensure every tunnel project is delivered with maximum operational safety, minimal environmental disruption, and optimal cost-effectiveness."
         },
         {
           heading: "Urban Tunneling",
-          text: "Urban tunneling presents unique challenges — dense populations, existing infrastructure, limited space, and strict environmental controls. At RoadX Design & Consultants, we specialize in designing and delivering tunneling solutions that seamlessly integrate into the complex fabric of modern cities."
+          text: "Urban tunneling presents unique challenges — dense populations, existing infrastructure, limited space, and strict environmental controls. At RoadX Infrastructure Solutions, we specialize in designing and delivering tunneling solutions that seamlessly integrate into the complex fabric of modern cities."
         }
       ]
     },
@@ -128,7 +128,7 @@ export const Sectors = () => {
         {
           heading: "Pavement Evaluation",
           highlight: "Integrated Technologies ",
-          text: "RoadX Design & Consultants offers advanced pavement evaluation services utilizing a suite of modern, non-destructive and data-driven technologies. Our approach combines surface condition monitoring, structural capacity analysis, and traffic characterization to support effective pavement management and rehabilitation planning."
+          text: "RoadX Infrastructure Solutions offers advanced pavement evaluation services utilizing a suite of modern, non-destructive and data-driven technologies. Our approach combines surface condition monitoring, structural capacity analysis, and traffic characterization to support effective pavement management and rehabilitation planning."
         },
         {
           heading: "Technologies & Methodologies:",
@@ -172,7 +172,7 @@ export const Sectors = () => {
         {
           heading: "Geotechnical Investigation:",
           highlight: " Foundation for Safe and Sustainable Infrastructure",
-          text: "Geotechnical investigation is a vital process that evaluates the physical properties of soil and rock underlying a proposed construction site. At RoadX Design & Consultants, we conduct thorough geotechnical investigations to provide critical data that informs safe and efficient design of roads, bridges, tunnels, and other civil structures."
+          text: "Geotechnical investigation is a vital process that evaluates the physical properties of soil and rock underlying a proposed construction site. At RoadX Infrastructure Solutions, we conduct thorough geotechnical investigations to provide critical data that informs safe and efficient design of roads, bridges, tunnels, and other civil structures."
         },
         {
           heading: "Applications:",

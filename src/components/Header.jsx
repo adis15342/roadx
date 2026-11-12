@@ -95,7 +95,7 @@ const Header = () => {
         </div>
         <div className="group relative flex items-center bg-white rounded-full hover:scale-110 transition-transform duration-300 hover:-translate-x-2">
           <a
-            href="https://wa.me/9812476369?text="
+            href="https://wa.me/7206305387?text="
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center"
